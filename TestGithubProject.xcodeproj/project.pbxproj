@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10F125CA222440B200163232 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F125C9222440B200163232 /* main.cpp */; };
+		82AB4285222441BE00F9184C /* KeitaroFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82AB4283222441BE00F9184C /* KeitaroFile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		10F125C6222440B200163232 /* TestGithubProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestGithubProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F125C9222440B200163232 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		82AB4283222441BE00F9184C /* KeitaroFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeitaroFile.cpp; sourceTree = "<group>"; };
+		82AB4284222441BE00F9184C /* KeitaroFile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeitaroFile.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				10F125C9222440B200163232 /* main.cpp */,
+				82AB4283222441BE00F9184C /* KeitaroFile.cpp */,
+				82AB4284222441BE00F9184C /* KeitaroFile.hpp */,
 			);
 			path = TestGithubProject;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F125CA222440B200163232 /* main.cpp in Sources */,
+				82AB4285222441BE00F9184C /* KeitaroFile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
