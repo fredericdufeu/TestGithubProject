@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10F125CA222440B200163232 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F125C9222440B200163232 /* main.cpp */; };
 		82AB4285222441BE00F9184C /* KeitaroFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82AB4283222441BE00F9184C /* KeitaroFile.cpp */; };
+		82AB4289222441FC00F9184C /* hehehe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82AB4287222441FC00F9184C /* hehehe.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		10F125C9222440B200163232 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		82AB4283222441BE00F9184C /* KeitaroFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeitaroFile.cpp; sourceTree = "<group>"; };
 		82AB4284222441BE00F9184C /* KeitaroFile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeitaroFile.hpp; sourceTree = "<group>"; };
+		82AB4287222441FC00F9184C /* hehehe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hehehe.cpp; sourceTree = "<group>"; };
+		82AB4288222441FC00F9184C /* hehehe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hehehe.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +64,20 @@
 			isa = PBXGroup;
 			children = (
 				10F125C9222440B200163232 /* main.cpp */,
+				82AB4286222441F000F9184C /* KeitaroFolder */,
 				82AB4283222441BE00F9184C /* KeitaroFile.cpp */,
 				82AB4284222441BE00F9184C /* KeitaroFile.hpp */,
 			);
 			path = TestGithubProject;
+			sourceTree = "<group>";
+		};
+		82AB4286222441F000F9184C /* KeitaroFolder */ = {
+			isa = PBXGroup;
+			children = (
+				82AB4287222441FC00F9184C /* hehehe.cpp */,
+				82AB4288222441FC00F9184C /* hehehe.hpp */,
+			);
+			path = KeitaroFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82AB4289222441FC00F9184C /* hehehe.cpp in Sources */,
 				10F125CA222440B200163232 /* main.cpp in Sources */,
 				82AB4285222441BE00F9184C /* KeitaroFile.cpp in Sources */,
 			);
